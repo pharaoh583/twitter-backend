@@ -1,0 +1,34 @@
+# ##
+# GET http://192.168.99.100:3000/
+# ##
+
+# ##create user
+# POST http://192.168.99.100:3000/user
+# Content-Type: application/json
+
+# {
+#    "username": "lola"
+# }
+
+# ##
+
+# ## follow
+# POST http://192.168.99.100:3000/follow
+# Content-Type: application/json
+
+# {
+#     "userIdA": 1,
+#     "userIdB": 2
+# }
+
+# ##post tweet
+# POST http://192.168.99.100:3000/tweet
+# Content-Type: application/json
+
+# {
+#     "userId": 2,
+#     "tweet": "este es mi tweet para 1"
+# }
+
+# ## get timeline
+GET http://192.168.99.100:3000/timeline/1
